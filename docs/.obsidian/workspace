@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "370a5a5233a8f48b",
+    "type": "split",
+    "children": [
+      {
+        "id": "eaac7d531ce73fd4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "book_notes/Intro.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c708a420e3a309f",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b17ca1f1f2a953d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "399439079af85f7b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b2a991b744d159a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2ba072253162e8e6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c87e45d9992c5961",
+    "type": "split",
+    "children": [
+      {
+        "id": "9eacc70aae3b3d54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "396796438129a785",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "book_notes/Intro.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "eaac7d531ce73fd4",
+  "lastOpenFiles": [
+    "docasauras_docs/intro.md",
+    "book_notes/Intro.md",
+    "book_notes/Atomic Habits/Intro.md",
+    "tutorial-basics/deploy-your-site.md",
+    "tutorial-basics/create-a-page.md",
+    "tutorial-basics/create-a-document.md",
+    "tutorial-basics/create-a-blog-post.md",
+    "tutorial-basics/congratulations.md",
+    "intro.md"
+  ]
+}
