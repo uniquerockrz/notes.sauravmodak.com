@@ -2,5 +2,6 @@
   "showFrontmatter": true,
   "spellcheck": true,
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "promptDelete": false
 }

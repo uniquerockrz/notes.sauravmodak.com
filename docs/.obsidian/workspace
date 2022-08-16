@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "book_notes/Intro.md",
+            "file": "book_notes/Atomic Habits.md",
             "mode": "source",
+            "backlinks": false,
             "source": false
           }
         }
@@ -77,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "book_notes/Intro.md"
+                "file": "book_notes/Atomic Habits.md"
               }
             }
           }
@@ -90,14 +91,15 @@
   },
   "active": "eaac7d531ce73fd4",
   "lastOpenFiles": [
-    "docasauras_docs/intro.md",
     "book_notes/Intro.md",
+    "Untitled.md",
+    "book_notes/Atomic Habits.md",
     "book_notes/Atomic Habits/Intro.md",
+    "docasauras_docs/intro.md",
     "tutorial-basics/deploy-your-site.md",
     "tutorial-basics/create-a-page.md",
     "tutorial-basics/create-a-document.md",
     "tutorial-basics/create-a-blog-post.md",
-    "tutorial-basics/congratulations.md",
-    "intro.md"
+    "tutorial-basics/congratulations.md"
   ]
 }

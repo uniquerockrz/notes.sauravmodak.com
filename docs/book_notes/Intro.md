@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Book Notes
 
-This folder contains notes of all the books that I have been reading. Some of them have been linked below:
+This folder contains notes of all the books that I have been reading. They have been linked below:
 
-[Atomic Habits](book_notes/Atomic%20Habits/Intro.md)
+| Name          | Author      | Started Reading | Ended Reading | Note                                |
+| ------------- | ----------- | --------------- | ------------- | ----------------------------------- |
+| Atomic Habits | James Clear | 15 August 2022  |               | [Atomic Habits](Atomic%20Habits.md) | 
