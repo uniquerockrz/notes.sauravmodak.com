@@ -41,3 +41,54 @@ So changing our habits and forming that identity is simple, we just need to repe
 Our brain is a complex organ whose one of the aim is to reduce cognitive load so that it can spare energy. The first time we encounter a problem, our brain works actively to solve that problem, and makes complex decisions. If we get a reward for solving that problem, the brain changes is chemistry so that the next time it gets the same problem, it can directly go to the solution instead of doing the same complex processing. So, if we encounter the same problem repeatedly, the the neural connections of our brain has already changed, and thus, instead of spending the same amount of time like the last time, it spends less time. Once we repeat the process enough, our brain has effectively learned this behaviour, and after enough repetitions, it can even perform this non consciously. 
 
 This is how we learn to drive a car or ride a bike. And the same way, we learn to do habits. 
+
+With repetition, our habits tend to take less effort and become more automatic. Simply saying, habits are mental shortcuts, some predefined scripts in our brain that our brain just subconsciously follows when it meets a predefined problem.
+
+## How are habits are built?
+
+The science says that a typical habit is composed of these 4 parts:
+
+* The cue
+* The craving
+* The action
+* The reward
+
+The cue is something that triggers our brain. Say you come home from work and see the remote controller. The craving is something that tells our brain to do something, say you want to watch TV and get entertained. The effort or the action here is you switching on the TV. And finally, the reward, you get entertained. 
+
+Over time, as the behaviour  becomes automatic, the steps get kinda merged. You come from work, you see the TV remove, you automatically start TV without thinking. You feel anxious, you start biting your nails. You feel overwhelmed at work, you start browsing social media. 
+
+This is how we develop bad habits. 
+
+The whole 4 steps above run in a feedback loop, with a reward in the end. Over time, your brain just associates the cue/trigger with the reward. This further enhances the habits and makes it a permanent footprint in your brain. 
+
+We can further break down each habits in just two phases - the problem phase and the reward phase. 
+
+The problem phase consists of the cue and the craving. The reward phase consists of the action and the reward. 
+
+The author has broken down the method of habit building into 4 different laws:
+
+* Make it obvious
+* Make it attractive
+* Make it easy
+* Make it satisfying
+
+Similarly, for bad habits, the laws can be
+
+* Make it invisible
+* Make it unattractive
+* Make it difficult
+* Make it unsatisfying
+
+The ultimate aim of habits is to solve a problem with as less energy and effort as possible. 
+
+## Make it Obvious
+
+Our brain is very good at prediction, and one of the ways it does it is just recognise patterns and associate that with different things. This is the way doctors can recognise the disease just by seeing a patient, veteran army men can read radar by just seeing it and so on. The brain often interprets these pattern so fast, that we are unable to explain it, and thus call it intuition. 
+
+One of the critical sep to change habits is to first recognise that they exists. We do most of the daily activities of the day without much mindfullness, in an automatic way. Similarly, our bad habits also get ingrained in our brain in this automatic patterns. 
+
+### The Habits Scorecard
+
+To build new habits, we have to get in hold of the current ones, and change them if necessary. The best way to do them is to make a list of current habits, and give them a score. See if they are useful for our long term goals, and are serving that purpose. 
+
+Since our habits are so automatic, we will have to bring our conscious self and awareness when we do them to recognise them. We can do that by calling out loud. When we do an habit, we just need to say out loud of what we are doing, and then make a note of it. Over the day, we will have a list of habits that we do and can decide whether it's serving our purpose or not. 
