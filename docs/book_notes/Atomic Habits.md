@@ -91,4 +91,40 @@ One of the critical sep to change habits is to first recognise that they exists.
 
 To build new habits, we have to get in hold of the current ones, and change them if necessary. The best way to do them is to make a list of current habits, and give them a score. See if they are useful for our long term goals, and are serving that purpose. 
 
-Since our habits are so automatic, we will have to bring our conscious self and awareness when we do them to recognise them. We can do that by calling out loud. When we do an habit, we just need to say out loud of what we are doing, and then make a note of it. Over the day, we will have a list of habits that we do and can decide whether it's serving our purpose or not. 
+Since our habits are so automatic, we will have to bring our conscious self and awareness when we do them to recognise them. We can do that by calling out loud. When we do an habit, we just need to say out loud of what we are doing, and then make a note of it. Over the day, we will have a list of habits that we do and can decide whether it's serving our purpose or not.
+
+### Implementation Intentions
+
+People tend to do habits when they have a clear idea and intention of doing it. So rather than people saying 'I will exercise for a healthier body' one can say 'I will exercise daily at 5pm in the local gym'. Our brain is good and interpreting different cues, and time and place often are the most powerful cues that are around. 
+
+So, to create better habits, one should write something like this. 
+
+I will do ~habit~ at ~time~ at ~place~.
+
+This way, one will likely succeed. Often, what we lack for habit building is clarity, not the motivation.
+
+### Habit Stacking
+
+A good way to start new habits is to often stack them with existing ones. Say you do a particular morning routine everyday, if you would like to start exercising in the mornings, one of the good ways of doing it would be to add it to the morning routine itself. 
+
+So, you can say something like this. 
+
+After I had tea each morning, I will do 20 pushups. 
+
+The habit stacking takes advantage of already existing momentum that you have built up, and you can continue doing same sets of habits one after the other. 
+
+### Environment Cues
+
+Our habits are not just associated with visual cues, but sometimes work because of the whole context associated with them. Say, if you start a reading habit in the couch, that will become the context of it, and whenever you are on the couch, your brain will trigger you to read. The same can have negative effects too, if you watch TV on the couch, your brain will trigger you to watch TV there.
+
+One of the keys to a successful habits is to have unique environment contexts for each of them. If you want to start reading, have a special table and chair just for reading. If you want to start meditating, have a corner in the house just for that. 
+
+If you have special environment context, you will have to spend less energy and will power to fight the environment.
+
+### Self Control
+
+We think one of the most important aspects of doing behaviour change is to have a good self control on oneself. However, self control is a overrated aspect and a short term one. The better way to change behaviour is to create a change in environment and make the bad habit much less accessible. 
+
+Once the habit is ingrained in our brain, it is much hard to pull it out and change it. The better way to avoid doing the habit is to remove the cues and change the environment so as to not trigger the bad habit. 
+
+These cover the first law of behaviour change - make it obvious. 
