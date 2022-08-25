@@ -128,3 +128,28 @@ We think one of the most important aspects of doing behaviour change is to have 
 Once the habit is ingrained in our brain, it is much hard to pull it out and change it. The better way to avoid doing the habit is to remove the cues and change the environment so as to not trigger the bad habit. 
 
 These cover the first law of behaviour change - make it obvious. 
+
+## Make It Attractive
+
+This is the second law of behaviour change, and it is making the habits attractive. Our brain loves to do things that are more attractive to us, and the reason that it does it because it craves for things that we want. 
+
+Why does the brain do so? The answer lies in dopamine. We used to say that dopamine is the chemical of pleasure, but it's actually a chemical of desire. The more dopamine releases because of thing, the more we would want something. It is also a chemical of novelty, the more new rewards that we get, the more dopamine is released. 
+
+However, dopamine is not released only when getting the reward, but also when we are anticipating for a reward. If we know that because of an action, we are likely going to get a reward, the more dopamine we are going to get. This feedback loop can be used to build more habits and stick with them. 
+
+The wanting or craving of something is more effective than just liking it. Our brain's wanting centres are much bigger than liking or pleasure centres. 
+
+### Temptation Bundling
+
+If there are some habits that we want to do, but have trouble doing it, it is better to bundle them with something that we like and crave. Examples can be, working out while watching TV, or meditating before reading a newspaper. These bundling of habits can also be used with habit stacks that we mentioned earlier, we can do one habit we need before one habit that we want. 
+
+### Joining a Tribe
+
+Humans are social beings and we tend to do things that make us belong to a tribe. The role of the culture we are in determines the behaviour that we have. So in order to build effective habits, it's better to be a part of a tribe that does the same kind of habits or where habit is the norm. 
+
+We tend of imitate the behaviours of these three groups:
+
+* the close: you are more likely to stay in shape or lose weight if people around you are slim.
+* the many: humans tend to follow the norms and habits of the group at large
+* the powerful: we want to follow the habits of people who are respected and the starts of our field. 
+
