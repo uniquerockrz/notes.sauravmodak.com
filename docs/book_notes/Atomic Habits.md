@@ -153,3 +153,39 @@ We tend of imitate the behaviours of these three groups:
 * the many: humans tend to follow the norms and habits of the group at large
 * the powerful: we want to follow the habits of people who are respected and the starts of our field. 
 
+### Fixing Bad Habits By Making Them Unattractive
+
+Most of the habits that we do today fulfils an ancient desire. We want to eat junk food to solve our hunger. We join Tinder to search for potential partners. We post on Instagram to alleviate our social status. We smoke cigarettes to feel less stressed. 
+
+One of the ways to fix these desires is to fulfil the underlying desire with something else. If we are stressed and feel the urge to smoke, we can go for a run. If we are hungry, we can eat some healthy food instead of junk. 
+
+Cues are powerful ways that our habits have developed. We may feel empty, and immediately we grab the phone and open social media. Our brain works on patterns, over the years it has realised that when one feels empty, he/she can escape that feeling just by opening social media, so it immediately does that automatically. To avoid that, one should reprogram our brain. 
+
+### How To Make Hard Habits Attractive
+
+We can make hard habits attractive by associating them with a positive experience. Like say, we want to workout, we can add a motivation ritual just before the workout to make it more attractive. Eventually our brain will understand the cues, and even if we leave the motivation ritual, we will still be able to do the habit without fail. 
+
+Thus, the key is to do something we feel good immediately before starting the habit. 
+
+## Make It Easy
+
+This is the third law of behaviour change. 
+
+### How Long Does It Take To Form An Habit
+
+The key to habit formation is not the time, its number of repetitions. At first, when we start an habit, it may look very effortful. However, with time, we take less and less effort to do that habit. With time, it becomes automatic and we don't need to take any conscious effort to do that habit. 
+
+The more frequently we do an habit, the greater is the chance that it will become more automatic. 
+
+### The Law Of Least Effort
+
+Our brain tends to like things that take the least amount of effort. So. if there is something that we want to do everyday, it should take the least amount of effort to do it. 
+
+So, one of the best ways to form an habit is to reduce the effort to do it. One way of saying is to reduce the friction. So, if we have to workout everyday, we should always keep the workout clothes in our reach. 
+
+One of the best ways of reducing effort is something I have already covered earlier, it is to organise our cues. 
+
+This principle can also be reversed if there is a bad habit that we want to get rid of. Example will be to remove the plug of the television when we are done watching it. 
+
+
+
