@@ -187,5 +187,31 @@ One of the best ways of reducing effort is something I have already covered earl
 
 This principle can also be reversed if there is a bad habit that we want to get rid of. Example will be to remove the plug of the television when we are done watching it. 
 
+### The Two Minute Rule
+
+When starting habits, it's best if they take less than two minutes. That way, you can build up the habit muscle, and continue doing the habit later. Some of the examples are given below:
+
+* Instead of exercising, just wear your gym clothes
+* Instead of going for a run, just go outside and take a short walk.
+
+The idea is, as you start the habit, it will give you the focus to do more. 
+
+In the end, the starting out thing will become a motivation ritual, and you will be able to do more with your time. 
+
+### Automate Your Habits
+
+The best way to do habits is to use technology to automate it. Like, if you are trying to quit social media, just adding a website blocker to your computer can improve things a lot. 
+
+One should also focus on one time thing that can make habit more easier to do. Like getting a good mattress can help your sleep better. Or getting a dog can make your happier. 
+
+## Make It Satisfying
+
+The forth law of habit change is to make it satisfying. The first three laws will allow you to build habits. However, it's the forth law that allows you to stick to it. 
+
+We humans however, can't think in terms of delayed rewards. We need instant gratification. So it's essential that we give us rewards at the end of habits. 
+
+It can be as easy as getting a monetary reward whenever you do a habit. The only condition is that the habit should not be counterintuitive to our identity. Like if we are trying to lose weight, we should not reward ourselves with eating junk food. 
+
+
 
 
