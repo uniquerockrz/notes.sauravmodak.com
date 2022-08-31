@@ -212,6 +212,42 @@ We humans however, can't think in terms of delayed rewards. We need instant grat
 
 It can be as easy as getting a monetary reward whenever you do a habit. The only condition is that the habit should not be counterintuitive to our identity. Like if we are trying to lose weight, we should not reward ourselves with eating junk food. 
 
+### Habit Tracking
 
+One way we lose motivation when doing habits is that we cannot see its progress. One way to overcome that is to measure progress via some kind of habit tracker. 
+
+A habit tracker can be as simple as marking things on a calendar everyday we do a habit. However, the visual satisfaction of seeing the streak is often as good as the reward of doing 
+the habit. 
+
+However, it may not be possible to do a habit everyday. If we miss a habit once, the most important thing we can do is to not miss it again. So, ideally we should want to not miss a habit more than once. 
+
+Knowing what to track is also important. If we are for example trying to lose weight, the pounds lost will be an obvious metric. However, when we start tracking it, we can join a crash diet or use some other methods to lose weight, which will not be ideal. 
+
+### Having An Accountability Partner
+
+One of another ways to succeed in habits is to have an accountability parter, a spouse or friend who keeps track of your habit and makes sure that you are not slipping back to your old ways. 
+
+Having an accountability partner keeps us in track, and makes sure that we are doing the right habits the right way. 
+
+You can also draw a habit contract with a partner, and also add punishments you will face incase you fail an habit. 
+
+## The Truth About Talent
+
+Genes matter, and while they may not prevent us from pursuing something, it may make us predisposed to some stuff we can be naturally good at. For example, if we are tall, we are likely to be good at swimming. If we are lean, we will be good at endurance sports such as long distance running. 
+
+Some task require a specific bent of gene, which may determine the output. So, in order to find optimal success in life, its better to find things which we are naturally good at. 
+
+Also, our personality influences habits more than we think. Some of the personality traits, like introversion and extroversion are predetermined at birth. 
+
+While taking up habits, it's necessary to keep this points in mind and manage our expectations. 
+
+## How To Find A Game That You Love
+
+The best way to do that is to explore more and more areas and find something that you like. However, we can also answer some questions to that effect:
+
+* What feels like fun to me and work to others?
+* What makes me lose track of time?
+* Where do I get better returns than the average person? 
+* What comes naturally to me?
 
 
