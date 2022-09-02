@@ -251,3 +251,22 @@ The best way to do that is to explore more and more areas and find something tha
 * What comes naturally to me?
 
 
+## The Goldilocks Rule
+
+One of the main challenges that everyone faces is staying motivated when starting anything new, a habit, learning something new etc. 
+
+The Goldilocks Rule says that we lose motivation at something if it's too easy for us or too hard for us. Thus, if we have to stay motivated at something, it needs to be just slightly hard.
+
+We can take this inference and apply that to our habits. If we make our habits too easy, we are bound to lose motivation of them, same thing can repeat if we make our habits too hard. The trick is to make the habits just hard enough, so that we can get into the zone fast and achieve a flow state fast. 
+
+However, we must remember that the greatest threat to success is not failure, but boredom. The masters are the one who repeat the same habits everyday, despite boredom. So, if we have to be the same, we have to grind through that. 
+
+## The Downside Of Habits
+
+When a behaviour becomes automatic to us, we tend to get in a rut. In fact, it has been shown that we lose our performance slightly when we convert a behaviour to an habit. That's one of the downside of habits. 
+
+However, we can still achieve mastery, with what some people call deliberate practice. So in order to achieve mastery, we have to have habits, but we also need to do deliberate practice. 
+
+Another framework we should use is to review our life from time to time, and make course corrections. Ideally one should do it twice a year. 
+
+One more thing we should take care of is to not cling to an identity too much. As discussed earlier, habit change is identity change, however, we need to be flexible with our identities. It's because that life is uncertain, and we don't know what's going to happen in future, incase the identity fails. 
