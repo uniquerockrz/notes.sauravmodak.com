@@ -2,5 +2,6 @@
   "obsidian-dictionary-plugin",
   "cm-editor-syntax-highlight-obsidian",
   "url-into-selection",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-auto-link-title"
 ]

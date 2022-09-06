@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "programming_notes/C++/Intro.md",
+            "file": "writing_notes/Intro.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c87e45d9992c5961",
@@ -78,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming_notes/C++/Intro.md"
+                "file": "writing_notes/Intro.md"
               }
             }
           }
@@ -90,8 +91,8 @@
   },
   "active": "316b144201dc8d86",
   "lastOpenFiles": [
-    "programming_notes/Intro.md",
     "programming_notes/C++/Intro.md",
+    "programming_notes/Intro.md",
     "data_science_notes/Intro.md",
     "data_science_notes/Linear Regression.md",
     "assets/Pasted image 20220906131059.png",

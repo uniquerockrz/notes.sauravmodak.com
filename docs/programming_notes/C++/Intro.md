@@ -33,8 +33,8 @@ Like other languages, variables are store of data. C++ has a diverse set of data
 
 ```cpp
 #include <iostream>
-using namespace std;
 
+using namespace std;
 int main(int argc, char *argv[]) {
     string characterName = "John";
     int characterAge;
