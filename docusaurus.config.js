@@ -77,6 +77,12 @@ const config = {
                     },
                     {
                         type: 'doc',
+                        docId: 'programming_notes/Intro',
+                        position: 'left',
+                        label: 'Programming',
+                    },
+                    {
+                        type: 'doc',
                         docId: 'docasauras_docs/intro',
                         position: 'left',
                         label: 'Docasaurus',
