@@ -19,6 +19,10 @@ int main()
 
 To compile a C++ program, we have to first build it to run it. Building a program means to convert the human written source code to the executable code that a computer can understand. This is done using a compiler, and various IDEs have tools that can automate this process. 
 
+The first text we see in the program is called `#include` which is a statement to include header files into the program. In simple words what it basically does is copies all the source code of the `iostream` file into our program. We are using two functions from those header files, the `cout` and the `endl`.
+
+C++ also has these concept of namespaces, which you can think of as referring several functions together. We are using the namespace `std` here, which allows us to call the `cout` and `endl` directly, without referring them as `std::cout` and `std::endl`.
+
 Like some languages, the C++ program needs to have a `main()` function where the execution of the code starts. It also needs to return a value, and the standards say that main function should ideally return an int. 
 
 We see two instructions in the above program, that is `cout` and `endl`. The `cout` is used for printing text to the standard output, which is usually the console, and the `endl` is used to end the line, which is same as adding a newline at the end of the string. 
