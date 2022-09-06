@@ -2,6 +2,7 @@
   "showFrontmatter": true,
   "spellcheck": true,
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./",
-  "promptDelete": false
+  "attachmentFolderPath": "assets",
+  "promptDelete": false,
+  "newLinkFormat": "relative"
 }

@@ -71,6 +71,12 @@ const config = {
                     },
                     {
                         type: 'doc',
+                        docId: 'data_science_notes/Intro',
+                        position: 'left',
+                        label: 'Data Science',
+                    },
+                    {
+                        type: 'doc',
                         docId: 'docasauras_docs/intro',
                         position: 'left',
                         label: 'Docasaurus',

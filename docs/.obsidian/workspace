@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "eaac7d531ce73fd4",
+        "id": "47af962105aae36b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "book_notes/Atomic Habits.md",
+            "file": "data_science_notes/Intro.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c87e45d9992c5961",
@@ -79,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "book_notes/Atomic Habits.md"
+                "file": "data_science_notes/Intro.md"
               }
             }
           }
@@ -89,17 +88,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "eaac7d531ce73fd4",
+  "active": "47af962105aae36b",
   "lastOpenFiles": [
+    "data_science_notes/Linear Regression.md",
+    "assets/Pasted image 20220906131059.png",
+    "book_notes/Atomic Habits.md",
+    "data_science_notes/Intro.md",
     "book_notes/Intro.md",
     "Untitled.md",
-    "book_notes/Atomic Habits.md",
     "book_notes/Atomic Habits/Intro.md",
     "docasauras_docs/intro.md",
     "tutorial-basics/deploy-your-site.md",
-    "tutorial-basics/create-a-page.md",
-    "tutorial-basics/create-a-document.md",
-    "tutorial-basics/create-a-blog-post.md",
-    "tutorial-basics/congratulations.md"
+    "tutorial-basics/create-a-page.md"
   ]
 }
