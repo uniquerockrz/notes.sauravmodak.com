@@ -83,6 +83,12 @@ const config = {
                     },
                     {
                         type: 'doc',
+                        docId: 'writing_notes/Intro',
+                        position: 'left',
+                        label: 'Writing',
+                    },
+                    {
+                        type: 'doc',
                         docId: 'docasauras_docs/intro',
                         position: 'left',
                         label: 'Docasaurus',
