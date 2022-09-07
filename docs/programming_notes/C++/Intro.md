@@ -72,3 +72,94 @@ int main(int argc, char *argv[]) {
 `char` are variables that hold a single character, `string` holds a bunch of characters, `int` stores whole numbers and `double` stores numbers with fractional points. Apart from that, there is a variable called `bool` which is boolean and stores boolean values, `true` and `false`.
 
 Some other data types are also present in C++, namely `long` and `float`. 
+
+## Strings
+
+You can use a number of functions with strings. Some of them are demonstrated below:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+int main(int argc, char *argv[]) {
+    string phrase = "Saurav Modak";
+    
+    cout << "Length: " << phrase.length() << endl;
+    cout << "Index: " << phrase[0] << endl;
+    phrase[0] = 's';
+    cout << "Modifying: " << phrase << endl;
+    cout << "Find: " << phrase.find("au", 0) << " " << phrase.find("ag", 0) << endl;
+    cout << "Subtring: " << phrase.substr(1, 3) << endl;
+}
+```
+
+Like most languages, indexing starts from zero. You can also modify the string on the fly using indexes. The `find` function finds a substring in string, and the `substr` function finds a substring in string. It takes two arguments, the index to start with and the length of the substring. 
+
+## Math Functions
+
+C++ supports basic math functions by default. However, you can use the `cmath` library to access more range of math functions. 
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+int main(int argc, char *argv[]) {
+    cout << 1.3 + 2.5 << endl;
+    cout << 5 % 3 << endl;
+    cout << 5 / 0 << endl;
+    cout << 5 / 3 << endl;
+    cout << 5.0 / 3 << endl;
+    
+    cout << pow(2, 5) << endl;
+    cout << sqrt(2) << endl;
+    cout << round(3.5) << endl;
+    cout << ceil(3.5) << endl;
+    cout << floor(3.5) << endl;
+    cout << fmax(3, 5) << endl;
+    cout << fmin(3, 5) << endl;
+    
+    float a = 1.4149;
+    double b = 4567.8954321;
+    
+    cout.precision(2);
+    cout << std::fixed << a << endl;
+    cout.precision(1);
+    cout << std::scientific << b << endl;
+    
+    return 0;
+}
+```
+
+Note that dividing between an integer and integer always returns an integer, even when that's not the correct answer. However, when a double is introduced, it returns a double. 
+
+You can use the `precision()` method to set the precision while printing out a float or double. There are two ways to print these. The first is the fixed notation, and the second is the scientific notion which converts the variable to base 10 raised to the power. 
+
+In fixed notation, the precision controls the number of digits to be printed after the decimal. In scientific notation, it controls the number of digits before the `e` in scientific notation. 
+
+## User Input
+
+User input is usually taken using the `cin` statement, which is opposite of what `cout` does. 
+
+```cpp
+#include <iostream>
+
+using namespace std;
+int main(int argc, char *argv[]) {
+    int age;
+    string name;
+    
+    cout << "Enter your age: ";
+    cin >> age;
+    cout << "You are " << age << " years old." << endl;
+    
+    cout << "Enter your name: " << endl;
+    cin.ignore(256, '\n');
+    getline(cin, name);
+    cout << "Hello " << name << "!" << endl;
+}
+```
+
+However, remember to use `getline()` to get strings. There is a caveat though. This function doesn't work that well with the `<<` operator. When you enter a ext and press enter, the newline character stays in the buffer. If you use `getline()`, the newline character will just get into the variable and you will not be able to get any usable user input. 
+
+To prevent that, we use `cin.ignore()`. It Takes two arguments, the number of characters to ignore and the character that terminates the ignore. 

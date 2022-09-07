@@ -7,3 +7,6 @@ This contains a list of notes by programming languages and concepts related to p
 
 ## System Languages
 * [C++](C++/Intro.md)
+
+## Scripting Languages
+* [Python](Python/Intro.md)
