@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "writing_notes/Intro.md",
+            "file": "programming_notes/Python/Intro.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c87e45d9992c5961",
@@ -79,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "writing_notes/Intro.md"
+                "file": "programming_notes/Python/Intro.md"
               }
             }
           }
@@ -92,14 +91,14 @@
   "active": "316b144201dc8d86",
   "lastOpenFiles": [
     "programming_notes/C++/Intro.md",
+    "programming_notes/Python/Intro.md",
+    "data_science_notes/Linear Regression.md",
+    "writing_notes/Intro.md",
     "programming_notes/Intro.md",
     "data_science_notes/Intro.md",
-    "data_science_notes/Linear Regression.md",
     "assets/Pasted image 20220906131059.png",
     "book_notes/Atomic Habits.md",
     "book_notes/Intro.md",
-    "Untitled.md",
-    "book_notes/Atomic Habits/Intro.md",
-    "docasauras_docs/intro.md"
+    "Untitled.md"
   ]
 }
