@@ -37,3 +37,12 @@ However, if we change the equation to $y=2x+-2$, it will look like this:
 ![](../assets/Pasted%20image%2020220907080757.png)
 
 As you can see, the slope as well as the intercepting point has changed. 
+* **Standard Deviation**: It's the square root of the variance as described above. 
+* **Normal Distribution**: Also known as the bell curve, it is the most common probability distribution that has some handy properties. 
+![](../assets/Pasted%20image%2020220914135737.png)
+
+## Correlation Does Not Imply Causation
+
+There can be two types of data we can end up working with, one is observational data and another is experimental data. Observational data is something we just observe, and have no control over. Say the temperature of the atmosphere. On the other hand, experimental data is data from experiments that we can control. Say you are in the office and you can control the temperature of the air conditioning. 
+
+In an observational settings, since there are a lot of variables that we can't control, it will be best to assume no causation among variables, even if there seem to be a correlation among them. 

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "316b144201dc8d86",
+        "id": "3f65e3d1dd409e5a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "programming_notes/C++/Intro.md",
+            "file": "data_science_notes/Linear Regression.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c87e45d9992c5961",
@@ -78,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming_notes/C++/Intro.md"
+                "file": "data_science_notes/Linear Regression.md"
               }
             }
           }
@@ -88,10 +89,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "316b144201dc8d86",
+  "active": "3f65e3d1dd409e5a",
   "lastOpenFiles": [
-    "programming_notes/Intro.md",
     "programming_notes/Python/Intro.md",
+    "programming_notes/Intro.md",
     "programming_notes/C++/Intro.md",
     "data_science_notes/Linear Regression.md",
     "writing_notes/Intro.md",
