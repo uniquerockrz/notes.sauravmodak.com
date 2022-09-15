@@ -46,3 +46,11 @@ As you can see, the slope as well as the intercepting point has changed.
 There can be two types of data we can end up working with, one is observational data and another is experimental data. Observational data is something we just observe, and have no control over. Say the temperature of the atmosphere. On the other hand, experimental data is data from experiments that we can control. Say you are in the office and you can control the temperature of the air conditioning. 
 
 In an observational settings, since there are a lot of variables that we can't control, it will be best to assume no causation among variables, even if there seem to be a correlation among them. 
+
+## The Formula Of Linear Regression
+
+The formula of linear regression is just like the line equation, with different symbols. 
+$$
+y = {\beta_{0}} + {\beta_{1}}x
+$$
+where ${\beta_{0}}$ is the interceptor and ${\beta_{1}}$ is the slope. We are essentially interested to find the values of these two variables by drawing a line that covers all the points in the space. This line is also known as the least squares line. 

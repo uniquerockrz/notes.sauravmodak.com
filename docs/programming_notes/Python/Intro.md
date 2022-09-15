@@ -90,3 +90,60 @@ for i in range(10):
 ```
 
 `range()` returns an iterable, which we use to run the for loop. They are like lists, but we can use them in loops like above. 
+
+## Functions
+
+Functions in python are defined with the def keyword. 
+
+```python
+def square(x):
+	return x * x
+```
+
+Like loops, they need to be indented to define their scope. You can also call the functions inside list comprehensions if you want to do more complex stuff. 
+
+```python
+y = [square(i) for i in x]
+```
+
+## List Comprehension
+
+If we are working with lists, python has handy tools which we can use to manipulate lists. These all fall under list comprehensions. The simplest one being, we create a list of numbers, and just want to take the square of the numbers. 
+
+```python
+x = range(10)
+y = [i*i for i in x]
+```
+
+You an also have conditionals in list comprehensions. 
+
+```python
+[i * i if i % 2 == 0 else 0 for i in x]
+[i * i for i in x if i % 2 == 0] # with filtering
+```
+
+## map()
+
+Another way of doing list processing is using the map function. The map function takes a function, and a list, and passes all the items of the list to that function. It finally stores all the results in an iterator, which we can iterate using a for loop or convert that to a list. 
+
+```python
+list(map(square, x))
+```
+
+You can also use filters in map, by using the filter function. 
+
+```python
+list(map(square, filter(check_even, x)))
+```
+
+## Import Libraries
+
+You can just import libraries using `import` keyword. You can also add an alias with `as`. You can also import only part of libraries or a submodule. 
+
+```python
+import pandas as pd
+import numpy as np
+from matplotlib import pyplot as plt
+from sklearn.linear_model import LinearRegression as LR
+```
+
