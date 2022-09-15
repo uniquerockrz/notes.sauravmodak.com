@@ -50,6 +50,24 @@ int main(int argc, char *argv[]) {
 
 Here we are seeing a program that is using variables, two types specifically, strings and integers. We can declare variables and directly assign them, or we can declare the variable and assign it the value later, as shown in the `characterAge` example above. 
 
+## Constants
+
+We can use the `const` keyword to declare constants. Since constants cannot be changed, trying to change them will result in an error. 
+
+```cpp
+#include <iostream>
+
+using namespace std;
+int main(int argc, char *argv[]) {
+    const int number = 20;
+    cout << "Number is " << number << endl;
+}
+```
+
+## Comments & White Spaces
+
+C++ comments can be single line with `//` and multiline with `/*  */`. The compiler also ignores whitespaces and indentations. You can use comments, whitespaces and indents to make the code more readable. 
+
 ## Data Types
 
 As discussed, these are some of the common data types used in C++.
@@ -163,3 +181,69 @@ int main(int argc, char *argv[]) {
 However, remember to use `getline()` to get strings. There is a caveat though. This function doesn't work that well with the `<<` operator. When you enter a ext and press enter, the newline character stays in the buffer. If you use `getline()`, the newline character will just get into the variable and you will not be able to get any usable user input. 
 
 To prevent that, we use `cin.ignore()`. It Takes two arguments, the number of characters to ignore and the character that terminates the ignore. 
+
+## Arrays
+
+Arrays are one of the most fundamental data types that can be used to store a list of data. In C++ though, all the elements of the array has to be of the same type. 
+
+You can declare array either by giving it's size, or directly assigning elements to it. 
+
+```cpp
+int numbers[20]; // 20 integers
+int nums[] = {1, 2, 3, 4}; // 4 integers
+```
+
+Like other languages, arrays can be modified using their index and also accessed using it. 
+
+```cpp
+#include <iostream>
+
+using namespace std;
+int main(int argc, char *argv[]) {
+    int numbers[] = {1, 2, 3, 4};
+    
+    cout << numbers[2] << endl;
+    numbers[2] = 23;
+    cout << numbers[2] << endl;
+    
+}
+```
+
+## Functions
+
+Like other languages, in C++, functions are a group of statement that are run together. They are declared using the `function` keyword. You can pass parameters and also return values from it. 
+
+```cpp
+#include <iostream>
+using namespace std;
+void sayHi(string name);
+
+int main(int argc, char *argv[]) {
+    sayHi("Saurav");
+    
+    return 0;
+}
+
+void sayHi(string name) {
+    cout << "Hi! " << name << endl;
+}
+```
+
+In the above example, we also have created a function stub, which declares the function at the top of the file. This is useful in case we need to access the function from `main()` but it is actually declared after `main()`.
+
+Incase the function doesn't return anything, we can use `void` else we can have the data type to return. 
+
+```cpp
+#include <iostream>
+using namespace std;
+
+double cube(double num){
+    double result = num * num * num;
+    return result;
+}
+
+int main(int argc, char *argv[]) {
+    cout << "Cube of 5 is " << cube(5) << endl;
+}
+```
+

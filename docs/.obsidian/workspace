@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "data_science_notes/Linear Regression.md",
+            "file": "programming_notes/C++/Intro.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c87e45d9992c5961",
@@ -78,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_science_notes/Linear Regression.md"
+                "file": "programming_notes/C++/Intro.md"
               }
             }
           }
@@ -90,10 +91,10 @@
   },
   "active": "fbbc091c8d2960ca",
   "lastOpenFiles": [
+    "data_science_notes/Linear Regression.md",
     "programming_notes/Python/Numpy, Pandas & Matplotlib.md",
     "programming_notes/Python/Intro.md",
     "programming_notes/Intro.md",
-    "data_science_notes/Linear Regression.md",
     "programming_notes/C++/Intro.md",
     "writing_notes/Intro.md",
     "data_science_notes/Intro.md",
