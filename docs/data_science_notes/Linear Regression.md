@@ -54,3 +54,103 @@ $$
 y = {\beta_{0}} + {\beta_{1}}x
 $$
 where ${\beta_{0}}$ is the interceptor and ${\beta_{1}}$ is the slope. We are essentially interested to find the values of these two variables by drawing a line that covers all the points in the space. This line is also known as the least squares line. 
+
+## Using Simple Linear Regression With Statsmodels
+
+We will be building a simple linear regression model using python and statsmodels. In the process we will learn how to predict predictor variables using ordinary least squares. 
+
+We will be using Soccer data of the ProjectPro first project for this. We will be using pandas to load the data from the CSV file, draw plots using matplotlib and then predict using statsmodels ordinary least squares. 
+
+As usual, let's load the libraries and the dataset. 
+
+```python
+dataset_path = '../datasets/ProjectPro/EPL_Soccer_MLR_LR.csv'
+
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+import statsmodels.api as sm
+```
+
+We can get some basic info about this data using the `df.info()`. Most importantly, it shows number of null and non null values. 
+
+```python
+df = pd.read_csv(dataset_path)
+df.info()
+```
+
+![](../assets/Pasted%20image%2020220919133342.png)
+
+As you can see, there are 202 entries in total, but in all columns, we get all 202 values as non-null. 
+
+A good way to get some basic stats of the numerical fields is using the `describe` function. 
+
+```python
+df.describe()
+```
+
+![](../assets/Pasted%20image%2020220919133607.png)
+
+You can also use `head()` to see the first few rows. 
+
+```python
+df.head(10)
+```
+
+![](../assets/Pasted%20image%2020220919133658.png)
+
+Since we are doing a linear regression, which tries to draw a straight line, it will be advantageous if we can get the column which is most correlated and try least squares on that. We can use the `corr()` function to find correlations among all the numerical columns. 
+
+```python
+df.corr() # correlation analysis
+```
+
+![](../assets/Pasted%20image%2020220919133858.png)
+
+We are interested only the scores here. So we find the column most correlated with score, which is Cost. We can now try building a scatter plot between the cost column and the score. 
+
+```python
+plt.scatter(df['Cost'], df['Score'])
+```
+
+![](../assets/Pasted%20image%2020220919134053.png)
+
+The points seems to be somewhat straightly correlated. 
+
+Now, to build the model, we put these columns in two variables, `x` and `y`. We also need to do a test and train split so that we can test the model later and find the accuracy. We can use the function from `sklearn` for this. 
+
+```python
+x = df['Cost']
+y = df['Score']
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.75, test_size=0.25, random_state=42)
+```
+
+Statsmodel doesn't automatically create an intercept, so we will have to do it manually. 
+
+```python
+x_train_with_intercept = sm.add_constant(x_train)
+```
+
+Finally, we fit the model. 
+
+```python
+lr = sm.OLS(y_train, x_train_with_intercept).fit()
+```
+
+We can get the constant (intercept) and the slope (the predictor variable's coefficient) using the `params`.
+
+```python
+lr.params
+```
+
+![](../assets/Pasted%20image%2020220919134646.png)
+
+And we can also get the summary of the model. 
+
+```python
+lr.summary()
+```
+
+![](../assets/Pasted%20image%2020220919134726.png)
+

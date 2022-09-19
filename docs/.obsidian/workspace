@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "book_notes/Mindeset.md",
+            "file": "data_science_notes/Linear Regression.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c87e45d9992c5961",
@@ -78,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "book_notes/Mindeset.md"
+                "file": "data_science_notes/Linear Regression.md"
               }
             }
           }
@@ -90,13 +91,13 @@
   },
   "active": "ead8bf5aa5f0476a",
   "lastOpenFiles": [
-    "book_notes/Intro.md",
+    "programming_notes/Python/Numpy.md",
     "book_notes/Mindeset.md",
+    "book_notes/Intro.md",
     "book_notes/Atomic Habits.md",
     "writing_notes/Intro.md",
     "programming_notes/C++/Intro.md",
     "data_science_notes/Linear Regression.md",
-    "programming_notes/Python/Numpy, Pandas & Matplotlib.md",
     "programming_notes/Python/Intro.md",
     "programming_notes/Intro.md",
     "data_science_notes/Intro.md"
