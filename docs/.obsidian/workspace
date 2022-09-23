@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "data_science_notes/Linear Regression.md",
+            "file": "data_science_notes/Intro.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c87e45d9992c5961",
@@ -79,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_science_notes/Linear Regression.md"
+                "file": "data_science_notes/Intro.md"
               }
             }
           }
@@ -91,15 +90,15 @@
   },
   "active": "ead8bf5aa5f0476a",
   "lastOpenFiles": [
+    "data_science_notes/Machine Learning/Linear Regression.md",
+    "data_science_notes/Artificial Intelligence/Intro To Artificial Intelligence.md",
+    "data_science_notes/Machine Learning/Intro To Machine Learning.md",
+    "data_science_notes/Intro.md",
     "programming_notes/Python/Numpy.md",
     "book_notes/Mindeset.md",
     "book_notes/Intro.md",
     "book_notes/Atomic Habits.md",
     "writing_notes/Intro.md",
-    "programming_notes/C++/Intro.md",
-    "data_science_notes/Linear Regression.md",
-    "programming_notes/Python/Intro.md",
-    "programming_notes/Intro.md",
-    "data_science_notes/Intro.md"
+    "programming_notes/C++/Intro.md"
   ]
 }
