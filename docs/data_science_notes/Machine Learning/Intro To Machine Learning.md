@@ -104,4 +104,101 @@ Based on this, we can conclude the following:
 
 We however, should not choose a model based on the test error. Rather, we should use the test error to interpret which model is better and why. 
 
-A better approach will be to further divide the training set into two, the training set and validation set, and use the validation set to choose the best fitted model.  
+A better approach will be to further divide the training set into two, the training set and validation set, and use the validation set to choose the best fitted model.
+
+Even better, it will be better if we have different sources of data, and each of the sources will have a validation data, and we train the model in all the sources of data. 
+
+## Parameters vs Hyper-parameters
+
+Parameters are something that the model learns from the data. 
+
+Hyper-parameters are something that we provide to tune the model. 
+
+## How To Go About Doing A Machine Learning Project
+
+1. Frame the problem and find the business objective.
+	1. Which type of algorithm to use, supervised or unsupervised. 
+	2. How to measure performance. 
+	3. Choose online vs batch learning.
+	4. How good the model has to be to be useful in production (say there is already a baseline model).
+2. Get the data
+	1. Understand each column
+	2. Check if they are numerical and categorical variables
+	3. Look at the min/max/median etc for numerical columns
+	4. Look at count and frequencies of the categorical variables
+	5. Look at histograms
+3. Split the data into training and test set which is well represented. 
+4. Visualize the data to gain insights.
+	1. Scatter plots (very good with correlations)
+	2. Pie charts, box plots
+	3. Star graphs
+	4. Histograms
+5. Experiment with attribute combinations
+	1. Take a log of values
+	2. Take an average of values
+6. Prepare the data
+	1. Handle missing features
+	2. Handle the categorical variables
+		1. Assign a numerical constant to each category
+		2. Use a one hot encoder
+		3. Use vector embeddings
+	3. Scale features
+		1. Shift the values to be between zero and one
+		2. Ensure that the mean is zero and standard deviation is one. 
+7. Train the model
+	1. Use validation data here
+	2. Use cross validation techniques to get an idea about the test error
+	3. Tune the model using hyper-parameters
+		1. Use grid search
+		2. Use random search (as sometimes grid search can be time intensive)
+8. Fine tune your model
+	1. Use ensembling
+	2. Use stacking
+9. Analyse your model, find where the errors are coming from etc
+	1. Evaluate your model in test set
+10. Launch the model, maintain and monitor your system
+
+## Measuring Errors
+
+### Mean Absolute Error
+
+It's just the summation of absolute values of error, over all the observations. 
+
+$$
+\frac{1}{n}\sum_{i=1}^{n}| h(x_{i}) - y_{i} |
+$$
+
+Where $n$ is the number of observations, $h$ is the prediction model, $h(x_{i})$ is the predicted value, $y_{i}$ is the actual value. 
+
+### Root Mean Squared Error
+
+Similar to MAE, but we take a square root here instead of modulus. 
+
+$$
+\sqrt[]{\frac{1}{n} \sum_{i=1}^{n} {( h(x_{i}) - y_{i} )}^{2} }
+$$
+
+### Accuracy
+
+This is sued for classification problems, where we just divide the number of accurate predictions by the total number of predictions. 
+
+$$
+\frac{1}{n} \sum_{i=1}^{n} I \left\{ h(x_i) == y_i \right\}
+$$
+
+However, remember that the accuracy can be highly misleading, especially in cases where the datasets are imbalanced, like for example cancer diagnosis, credit card fraud etc. 
+
+### Confusion Matrix
+
+It's a better way to measure classification, and is based on four values. 
+
+![](../../assets/Pasted%20image%2020220923201903.png)
+
+We take two values here:
+
+* **Precision**: How many which we detected positive are actually positive
+		Precision = TP / (TP + FP)
+* **Recall**: How many of actual positives have we predicted correctly
+		Recall = TP (TP + FN)
+* F1 score:
+		2 * Precision * Recall / Precision + Recall
