@@ -4,17 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "036e510486ce076a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "data_science_notes/Deep Learning/Intro To Deep Learning.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
+        "id": "a66d3506c411e807",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "036e510486ce076a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data_science_notes/Deep Learning/Intro To Deep Learning.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -32,7 +38,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -87,6 +95,9 @@
     ],
     "direction": "horizontal",
     "width": 300
+  },
+  "ribbon": {
+    "mostRecentAction": ""
   },
   "active": "036e510486ce076a",
   "lastOpenFiles": [

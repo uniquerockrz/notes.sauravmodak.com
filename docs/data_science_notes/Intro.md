@@ -15,3 +15,7 @@ This section consists of all the data science notes that I have taken while lear
 
 * [Intro To Artificial Intelligence](Artificial%20Intelligence/Intro%20To%20Artificial%20Intelligence.md)
 
+## Deep Learning
+
+* [Intro To Deep Learning](Deep%20Learning/Intro%20To%20Deep%20Learning.md)
+
