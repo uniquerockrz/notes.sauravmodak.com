@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_science_notes/Deep Learning/Intro To Deep Learning.md",
+                "file": "data_science_notes/Intro.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6fb11390989e3c47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data_science_notes/Deep Learning/Tensorflow Basics.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_science_notes/Deep Learning/Intro To Deep Learning.md"
+                "file": "data_science_notes/Deep Learning/Tensorflow Basics.md"
               }
             }
           }
@@ -99,17 +113,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "036e510486ce076a",
+  "active": "6fb11390989e3c47",
   "lastOpenFiles": [
-    "data_science_notes/Intro.md",
     "data_science_notes/Deep Learning/Intro To Deep Learning.md",
+    "data_science_notes/Deep Learning/Tensorflow Basics.md",
+    "data_science_notes/Intro.md",
     "data_science_notes/Machine Learning/Intro To Machine Learning.md",
     "assets/Pasted image 20220922185931.png",
     "assets/Pasted image 20220922191950.png",
     "assets/Pasted image 20220923201903.png",
     "assets/Pasted image 20220922192110.png",
     "data_science_notes/Machine Learning/Linear Regression.md",
-    "data_science_notes/Artificial Intelligence/Intro To Artificial Intelligence.md",
-    "programming_notes/Python/Numpy.md"
+    "data_science_notes/Artificial Intelligence/Intro To Artificial Intelligence.md"
   ]
 }
