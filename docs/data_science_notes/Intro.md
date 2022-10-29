@@ -18,4 +18,4 @@ This section consists of all the data science notes that I have taken while lear
 ## Deep Learning
 
 * [Intro To Deep Learning](Deep%20Learning/Intro%20To%20Deep%20Learning.md)
-
+* [Tensorflow Basics](Deep%20Learning/Tensorflow%20Basics.md)

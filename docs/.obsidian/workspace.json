@@ -110,14 +110,11 @@
     "direction": "horizontal",
     "width": 300
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "6fb11390989e3c47",
   "lastOpenFiles": [
-    "data_science_notes/Deep Learning/Intro To Deep Learning.md",
-    "data_science_notes/Deep Learning/Tensorflow Basics.md",
     "data_science_notes/Intro.md",
+    "data_science_notes/Deep Learning/Tensorflow Basics.md",
+    "data_science_notes/Deep Learning/Intro To Deep Learning.md",
     "data_science_notes/Machine Learning/Intro To Machine Learning.md",
     "assets/Pasted image 20220922185931.png",
     "assets/Pasted image 20220922191950.png",
