@@ -17,5 +17,7 @@ This section consists of all the data science notes that I have taken while lear
 
 ## Deep Learning
 
-* [Intro To Deep Learning](Deep%20Learning/Intro%20To%20Deep%20Learning.md)
-* [Tensorflow Basics](Deep%20Learning/Tensorflow%20Basics.md)
+* [Intro To Deep Learning](Deep%20Learning/01%20Intro%20To%20Deep%20Learning.md)
+* [Tensorflow Basics](Deep%20Learning/02%20Tensorflow%20Basics.md)
+* [Neural Networks For Regression](Deep%20Learning/03%20Neural%20Networks%20For%20Regression.md)
+

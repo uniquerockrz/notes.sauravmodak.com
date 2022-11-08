@@ -208,7 +208,7 @@ tf.random.uniform([1]), tf.random.uniform([1])
 
 ### Ones, Zeros and Using Numpy Arrays In Tensors
 
-Like numpy, tensorflow has functions for generating zeros and ones. You can also directly convert numpy arrays into tensors and use advantage of GPU calculation. 
+Like numpy, tensorflow has functions for generating zeros and ones. You can also directly convert numpy arrays into tensors and use advantage of GPU calculation. However, remember that when you create a tensor using numpy arrays, it uses the `float64` data type by default, rather than `float32`.
 
 ```python
 tf.ones(shape=(4,4))
@@ -251,9 +251,29 @@ array([[[ 1,  2],
         [21, 22],
         [23, 24]]])>
 '''
+tf.constant(numpy_arr, shape=(4, 3, 2)).numpy()
+'''
+array([[[ 1,  2],
+        [ 3,  4],
+        [ 5,  6]],
+
+       [[ 7,  8],
+        [ 9, 10],
+        [11, 12]],
+
+       [[13, 14],
+        [15, 16],
+        [17, 18]],
+
+       [[19, 20],
+        [21, 22],
+        [23, 24]]])
+'''
 ```
 
 In the last step, if you give a custom shape, you will have to make sure that the number of elements in the numpy array adds up to the number of elements in custom shape. 
+
+You can also use `numpy()` function with a tensor to convert that back to a numpy array. 
 
 ## Getting Information From Tensors
 
@@ -482,6 +502,106 @@ tf.math.reduce_variance(tensor_ex4) # variance
 
 tf.math.reduce_std(tensor_ex4) # standard deviation
 # <tf.Tensor: shape=(), dtype=float32, numpy=0.82409567>
+```
+
+### Getting Positional Maximum & Minimum Values
+
+This is useful when we get a tensor with probability values and want to find out which index or column has the maximum value. 
+
+```python
+tensor_ex5 = tf.random.uniform([50])
+tensor_ex5
+'''
+<tf.Tensor: shape=(50,), dtype=float32, numpy=
+array([0.50676847, 0.18066192, 0.1611166 , 0.06437147, 0.8763486 ,
+       0.2576555 , 0.8525616 , 0.09303212, 0.8723489 , 0.44645894,
+       0.5437794 , 0.5009775 , 0.96296394, 0.61096597, 0.31302798,
+       0.549325  , 0.46434307, 0.41058636, 0.954661  , 0.22442484,
+       0.62035143, 0.20936489, 0.34228134, 0.23542166, 0.18465221,
+       0.9285985 , 0.69944096, 0.82962906, 0.11501014, 0.4583652 ,
+       0.8368666 , 0.12477243, 0.0877043 , 0.9832227 , 0.18885374,
+       0.42679882, 0.4768362 , 0.3994403 , 0.3992759 , 0.2818178 ,
+       0.17382967, 0.51693344, 0.25589216, 0.42741382, 0.06122684,
+       0.9146503 , 0.839046  , 0.44848228, 0.62516046, 0.6747279 ],
+      dtype=float32)>
+'''
+
+tf.argmax(tensor_ex5), tensor_ex5[tf.argmax(tensor_ex5)]
+'''
+(<tf.Tensor: shape=(), dtype=int64, numpy=33>,
+ <tf.Tensor: shape=(), dtype=float32, numpy=0.9832227>)
+'''
+
+tf.argmin(tensor_ex5), tensor_ex5[tf.argmin(tensor_ex5)]
+'''
+(<tf.Tensor: shape=(), dtype=int64, numpy=44>,
+ <tf.Tensor: shape=(), dtype=float32, numpy=0.061226845>)
+'''
+```
+
+### Squeezing Of Tensors
+
+Squeezing tensors removes all the 1 dimensions from the tensors.
+
+```python
+tensor_ex6 = tf.constant(tf.random.uniform(shape=(50,)), shape=(1, 1, 1, 50))
+tensor_ex6
+'''
+<tf.Tensor: shape=(1, 1, 1, 50), dtype=float32, numpy=
+array([[[[0.32749927, 0.14349127, 0.73157334, 0.4040166 , 0.41613674,
+          0.05991626, 0.00148618, 0.27629137, 0.6393503 , 0.00861132,
+          0.5292599 , 0.51135695, 0.7559196 , 0.6220609 , 0.6946008 ,
+          0.402099  , 0.5116346 , 0.5616609 , 0.9953383 , 0.9393498 ,
+          0.42442536, 0.47940636, 0.89650965, 0.08810329, 0.24329364,
+          0.3991077 , 0.65154314, 0.80694103, 0.39273846, 0.99071085,
+          0.51990604, 0.20037258, 0.1769352 , 0.40801704, 0.24510717,
+          0.36496067, 0.18061328, 0.13685167, 0.3382591 , 0.693889  ,
+          0.07356262, 0.6553854 , 0.51927185, 0.05092728, 0.88252294,
+          0.8902385 , 0.6320689 , 0.09885287, 0.2016809 , 0.5381776 ]]]],
+      dtype=float32)>
+'''
+
+tensor_ex6.ndim
+# 4
+
+tf.squeeze(tensor_ex6), tf.squeeze(tensor_ex6).ndim
+'''
+(<tf.Tensor: shape=(50,), dtype=float32, numpy=
+ array([0.32749927, 0.14349127, 0.73157334, 0.4040166 , 0.41613674,
+        0.05991626, 0.00148618, 0.27629137, 0.6393503 , 0.00861132,
+        0.5292599 , 0.51135695, 0.7559196 , 0.6220609 , 0.6946008 ,
+        0.402099  , 0.5116346 , 0.5616609 , 0.9953383 , 0.9393498 ,
+        0.42442536, 0.47940636, 0.89650965, 0.08810329, 0.24329364,
+        0.3991077 , 0.65154314, 0.80694103, 0.39273846, 0.99071085,
+        0.51990604, 0.20037258, 0.1769352 , 0.40801704, 0.24510717,
+        0.36496067, 0.18061328, 0.13685167, 0.3382591 , 0.693889  ,
+        0.07356262, 0.6553854 , 0.51927185, 0.05092728, 0.88252294,
+        0.8902385 , 0.6320689 , 0.09885287, 0.2016809 , 0.5381776 ],
+       dtype=float32)>, 1)
+'''
+```
+
+As we can see, the dimension at the end is reduced.
+
+### One Hot Encoding Tensors
+
+This is also useful in classification when we have to convert categorical values to numerical ones. However, one hot encoding here only take numerical values, so we will have to encode categorical values to numerical indexes in some way. 
+
+```python
+some_list = [1, 2, 3, 1, 1, 2, 3, 2]
+
+tf.one_hot(some_list, depth=3)
+'''
+<tf.Tensor: shape=(8, 3), dtype=float32, numpy=
+array([[0., 1., 0.],
+       [0., 0., 1.],
+       [0., 0., 0.],
+       [0., 1., 0.],
+       [0., 1., 0.],
+       [0., 0., 1.],
+       [0., 0., 0.],
+       [0., 0., 1.]], dtype=float32)>
+'''
 ```
 
 
