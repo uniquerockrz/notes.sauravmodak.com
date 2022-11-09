@@ -154,3 +154,37 @@ lr.summary()
 
 ![](../../assets/Pasted%20image%2020220919134726.png)
 
+## Interpreting The Output
+
+As we can see, statsmodels has given us the estimates for the constant as well as the Cost. If we put those into linear regression formula, we get this. 
+
+$$
+y = {0.7921} + {0.1834}x
+$$
+Where 0.7921 is $\beta_{0}$ and 0.1834 is $\beta_{1}$. This means, for every 0.1834 increase in cost, the score increases by 1. 
+
+We can see the range of the cost, for example, here it is between 32 and 200. If we make an estimate in this range, its called interpolation. However, if we make an prediction outside this range, its called extrapolation. Extrapolated predictions may not be that accurate and the thing to do in many cases. 
+
+## Error Term
+
+Since we cannot fit all the points perfectly into the line of linear regression, there's bound to be an error term in the equation. So, the actual equation becomes:
+
+$$
+y = \beta_{0} + \beta_{1}x + \varepsilon 
+$$
+
+Where $\varepsilon$ is the error term. We may assume that this has a mean of zero and a variance of $\sigma^{2}$. 
+
+## Confounding Variables or Lurking Variables
+
+The best way to understand confounding variables is using an example. Let's say, we have to estimate why crime is going up in a city using some data. We observe that on days the foot traffic is high, the crime rate rises too. 
+
+However, it may be possible that there are some other variables that are influencing both the foot traffic and the crime. 
+
+![](../../assets/Pasted%20image%2020221109095127.png)
+
+In this example, it maybe the temperature that is influencing both. Such variables are called confounding variables. We should be careful when using confounding variables as estimates to linear regression. 
+
+
+
+
