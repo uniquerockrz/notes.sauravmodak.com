@@ -159,3 +159,20 @@ model.predict([[17.0]])
 
 This gives an output of 15.74, which is quite off from the actual value 27. 
 
+## Improving The Model
+
+There are three distinct steps that we took to create the model.
+
+* Creating the model
+* Compiling the model
+* Fitting the model
+
+We can improve the model by modifying parameters at each of the steps. 
+
+In creating a model step, we can add more layers, add more neurons in layers, or change the activation function of each layer. 
+
+In compiling a model, we can change the optimisation function and the learning rate of the optimisation function. 
+
+In fitting a model, we can train the model for more epochs, or give the model more data. 
+
+

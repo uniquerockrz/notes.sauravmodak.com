@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6675e07400902209",
+        "id": "766b9b633a0e3ccf",
         "type": "tabs",
         "children": [
           {
-            "id": "c74159d01ca58a37",
+            "id": "aabd0a03f6f7c0f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_science_notes/Machine Learning/Linear Regression.md",
+                "file": "data_science_notes/Deep Learning/03 Neural Networks For Regression.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_science_notes/Machine Learning/Linear Regression.md"
+                "file": "data_science_notes/Deep Learning/03 Neural Networks For Regression.md"
               }
             }
           }
@@ -96,7 +96,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c74159d01ca58a37",
+  "active": "aabd0a03f6f7c0f8",
   "lastOpenFiles": [
     "data_science_notes/Machine Learning/Linear Regression.md",
     "data_science_notes/Machine Learning/Intro To Machine Learning.md",
