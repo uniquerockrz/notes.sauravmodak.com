@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_science_notes/Machine Learning/Intro To Machine Learning.md",
+                "file": "data_science_notes/Machine Learning/Linear Regression.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_science_notes/Machine Learning/Intro To Machine Learning.md"
+                "file": "data_science_notes/Machine Learning/Linear Regression.md"
               }
             }
           }
@@ -99,9 +99,9 @@
   },
   "active": "aabd0a03f6f7c0f8",
   "lastOpenFiles": [
+    "data_science_notes/Machine Learning/Intro To Machine Learning.md",
     "data_science_notes/Deep Learning/03 Neural Networks For Regression.md",
     "data_science_notes/Machine Learning/Linear Regression.md",
-    "data_science_notes/Machine Learning/Intro To Machine Learning.md",
     "data_science_notes/Deep Learning/02 Tensorflow Basics.md",
     "data_science_notes/Intro.md",
     "assets/Pasted image 20221025211457.png",

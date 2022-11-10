@@ -185,6 +185,68 @@ However, it may be possible that there are some other variables that are influen
 
 In this example, it maybe the temperature that is influencing both. Such variables are called confounding variables. We should be careful when using confounding variables as estimates to linear regression. 
 
+## How Are The Estimators Calculated?
+
+Remember that the formula of simple linear regression is like this:
+
+$$
+y = \beta_{0} + \beta_{1}x
+$$
+
+The Q-criterion here is to minimise the sum of square errors. Let's take the points on which we are estimating to be something like this:
+
+![](../../assets/Pasted%20image%2020221110124702.png)
+
+We can fit a line to the above, however, the best line should be pretty close to points. 
+
+![](../../assets/Pasted%20image%2020221110124844.png)
+
+We can take the difference of the points from the line to determine if the line is a good fit. However, some of the differences will be positive and some of the differences will be negative. So it's likely that the values will cancel each other out. 
+
+Instead of taking the difference directly, we can square it, so it will always be positive. This is precisely what's called sum of square errors. 
+
+So, we are trying to minimise the square of the residuals. 
+
+So, the Q-criterion, which we are trying to minimise, is:
+
+$$
+\sum_{i=1}^{N} \left [ y_{i} - \left ( \beta_{0} + \beta_{i}.x_{i} \right ) \right ] ^ 2
+$$
+Which is the `actual value - predicted value` of `i`.
+
+So how do we solve the above? There can be two methods for this:
+
+1. We use a computational method to find the values of $\beta_{0}$ and $\beta_{1}$.
+2. We take the partial derivate of Q with respective to $\beta_{0}$ and $\beta_{1}$.
+
+So, the partial derivatives are:
+
+$$
+\frac{\partial Q }{\partial \beta_{0}} = -2 \sum_{i=0}^{N} (y_{i} - \beta_{0} - \beta_{i}.x_{i} )
+$$
+
+and 
+
+$$
+\frac{\partial Q }{\partial \beta_{1}} = -2 \sum_{i=0}^{N} x_{i} (y_{i} - \beta_{0} - \beta_{i}.x_{i} )
+$$
+
+And the estimates come out to be:
+
+$$
+\beta_{0} = \bar{y} - b_{i}.\bar{x} 
+$$
+
+$$
+\beta_{1} = \frac{\sum (x_{i}- \bar{x})(y_{i} - \bar{y})}{\sum (x_{i} - \bar{x}) ^ 2}
+$$
 
 
+Where $\bar{x}$ and $\bar{y}$ are means of values of x and y. 
 
+## Properties Of Estimators
+
+Some of the properties of these estimators are:
+
+1. The estimators are unbiased. 
+2. They also have minimum variance amongst unbiased linear estimators.
