@@ -23,6 +23,8 @@ There are several ways to categorise ML Systems:
 
 In this type of ML systems, you have to give the label as well as the data points, and the ML system learns on them. For example, you give a list of emails and also whether they are spam or not. 
 
+The independent variables here are known as features, whereas the variable we are predicting, the dependent variable is known as the target. 
+
 Types of supervised learning:
 
 * Classification: You have definite labels (spam/not spam, cats/dogs).
@@ -36,6 +38,10 @@ Some examples of supervised learning are:
 * Support Vector Machines
 * Decision Tress
 * Neural Networks
+
+For example, if we have a lot of information about cars, we can use that to predict its price. 
+
+![](../../assets/Pasted%20image%2020221110080742.png)
 
 ### Unsupervised Learning
 
