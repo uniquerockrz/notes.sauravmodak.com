@@ -43,6 +43,22 @@ For example, if we have a lot of information about cars, we can use that to pred
 
 ![](../../assets/Pasted%20image%2020221110080742.png)
 
+If we model the above as linear regression, it will look like this:
+
+![](../../assets/Pasted%20image%2020221114211012.png)
+
+Similarly, in classification, we can think as the data points to be represented in a graph. Then typically, we will be able to find a decision boundary and classify the new data points based on where they fall. 
+
+![](../../assets/Pasted%20image%2020221114210709.png)
+
+The typical way supervised learning works in given below:
+
+![](../../assets/Pasted%20image%2020221114210416.png)
+
+However, in reinforcement learning, though it falls under supervised learning, we do not provide labels to the algorithm. Instead, a reward is given to the agent, based on how it perceives the environment. The goal of the agent is to do trail and error and maximise the reward. 
+
+![](../../assets/Pasted%20image%2020221114211345.png)
+
 ### Unsupervised Learning
 
 In this method, you do not provide labels to data and the algorithm has to figure out and identify patterns from them. 
@@ -55,6 +71,12 @@ Some examples of unsupervised learning are:
 * Association Rule Learning
 
 There is also something called semi supervised learning, which is a combination of supervised and unsupervised learning. 
+
+The biggest example of unsupervised learning algorithms are clustering. In this, the algorithm has to find groups of meaningful subgroups from data, which is why it is also known as unsupervised classification. 
+
+![](../../assets/Pasted%20image%2020221114212518.png)
+
+One more example of unsupervised learning is in dimensionality reduction. Since the data required often used in these machine learning algorithms can be huge, we can use dimensionality reduction techniques to reduce the noise from the data and just keep the meaningful features. 
 
 ### Batch Learning Vs Online Learning
 
@@ -70,6 +92,12 @@ In model based learning, there exists a boundary between different instances, an
 
 ## Typical Workflow Of A Machine Learning Problem
 
+The roadmap of building a machine learning model can be summarised as below:
+
+![](../../assets/Pasted%20image%2020221114213229.png)
+
+One example of the above is as shown below:
+
 1. First plot the data and visualize it.
 	1. Usually scatter plots.
 	2. Then you can use linear plot. 
@@ -78,6 +106,22 @@ In model based learning, there exists a boundary between different instances, an
 2. See if there is a linear relation, if yes, select a linear model.
 3. Fit the linear model to the data. 
 4. Apply the model on new cases and see the result. 
+
+### Pre-processing The Data
+
+Data in the real words is rarely in the form that can be digested by machine learning algorithms. So, we need to apply pre-processing techniques to get this data in the correct shape. 
+
+One example of this can be of the IRIS dataset. 
+
+We can take the pictures from the flowers and get the length and width of the flowers as a number. Then we can reduce the numbers to the same scale, by normalising the data and keeping the length and width between zero and one. 
+
+Some of the features may also be correlated, so we should also use dimensionality reduction techniques to compress them. This techniques can also reduce the noise in the data. 
+
+### Training & Selecting A Model
+
+Models are not one size fits it all. So we need to try at least a few algorithms with our data to find which one works best. We use some parameters to measure the performance of such models, like RMSE for regression and accuracy for classification. We typically test the performance using cross validation techniques and keep the test data to test the model at last. 
+
+The models can also contain some parameters, which we can modify to improve the performance of the model. This step is called hyper-parameter tuning. 
 
 ## Main Challenges Of Machine Learning
 
