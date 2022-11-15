@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "86aad93deef7cebc",
+        "id": "418f70eda101baf5",
         "type": "tabs",
         "children": [
           {
-            "id": "fe888d5563f8afa0",
+            "id": "a5439f91f5eaf0fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_science_notes/Machine Learning/Intro To Machine Learning.md",
+                "file": "data_science_notes/Machine Learning/03 Classification Using Perception & Adaptive Linear Neurons.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_science_notes/Machine Learning/Intro To Machine Learning.md"
+                "file": "data_science_notes/Machine Learning/03 Classification Using Perception & Adaptive Linear Neurons.md"
               }
             }
           }
@@ -97,17 +97,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "fe888d5563f8afa0",
+  "active": "a5439f91f5eaf0fa",
   "lastOpenFiles": [
+    "data_science_notes/Machine Learning/01 Intro To Machine Learning.md",
+    "data_science_notes/Intro.md",
+    "data_science_notes/Machine Learning/03 Classification Using Perception & Adaptive Linear Neurons.md",
     "data_science_notes/Deep Learning/02 Tensorflow Basics.md",
     "data_science_notes/Deep Learning/03 Neural Networks For Regression.md",
-    "data_science_notes/Machine Learning/Linear Regression.md",
-    "data_science_notes/Machine Learning/Intro To Machine Learning.md",
-    "data_science_notes/Intro.md",
+    "data_science_notes/Machine Learning/02 Linear Regression.md",
     "assets/Pasted image 20221025211457.png",
     "assets/Pasted image 20221108143225.png",
     "data_science_notes/Deep Learning/01 Intro To Deep Learning.md",
-    "assets/Pasted image 20220922185931.png",
-    "assets/Pasted image 20220922191950.png"
+    "assets/Pasted image 20220922185931.png"
   ]
 }
