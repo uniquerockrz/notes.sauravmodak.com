@@ -106,6 +106,15 @@ Like loops, they need to be indented to define their scope. You can also call th
 y = [square(i) for i in x]
 ```
 
+## Lambdas
+
+This can be used to define simple one line functions in Python. An example is given below as how to define a lambda for squaring a number
+
+```python
+square = lambda x: x * x
+square(2) # returns 4
+```
+
 ## List Comprehension
 
 If we are working with lists, python has handy tools which we can use to manipulate lists. These all fall under list comprehensions. The simplest one being, we create a list of numbers, and just want to take the square of the numbers. 
