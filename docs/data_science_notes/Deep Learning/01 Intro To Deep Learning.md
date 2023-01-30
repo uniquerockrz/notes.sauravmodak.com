@@ -33,6 +33,21 @@ You should however not use deep learning in this following scenarios.
 
 Machine Learning models typically work best with structured data, such as rows and columns data in a spreadsheet. Deep learning models typically work better in unstructured data, such as text, audio, images etc. 
 
+## History Of AI
+
+Previously, it was thought that humans can code up sufficiently large number of cases for a computer to evaluate and come up with an answer. This was the era of *symbolic AI* which worked for well defined problem such as playing chess, but didn't work in much more complex problems such as image and speech recognition. 
+
+Later, the role of machine learning came into the being. Here, instead of a human figuring out the rules, the computer figured out the rules from given data. 
+
+![](../../assets/Pasted%20image%2020230113163457.png)
+Here, the machine learning algorithm is trained on the data and it tries to find the mathematical structure of the data. However, it also lacked in one critical point - the features to be trained on had to be supplied by the practitioner. So, incase of an image classification task, the features to differentiate the image had to be supplied by the data scientist. 
+
+This feature engineering task was hard, and was finally solved with the advent of deep learning. Instead of the user supplying the features by hand, the deep learning model itself learned the representation of the features, thus eliminating the need of feature engineering. 
+
+## What Is Deep Learning?
+
+Traditional machine learning methods fall under the category of shallow learning, as they only work on one or two layers deep of representation of data. However, incase of deep learning, the data is transformed by using tens, if not hundreds of layers. These layers are learnt using neural networks, which we will describe below. 
+
 ## What Are Neural Networks 
 
 Before understanding neural networks, we can learn as to how neural networks work.
